@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background - Pure Dark Theme */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0d0d0d;
+}
+
+/* Container - Glassmorphism with Neon Glow */
+.container {
+    background: rgba(25, 25, 25, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 170, 0.8);
+    text-align: center;
+    border: 2px solid rgba(0, 255, 170, 0.5);
+}
+
+/* Title */
+h1 {
+    font-size: 28px;
+    color: #00ffaa;
+    text-shadow: 0 0 8px #00ffaa;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 20px;  /* More space between each input group */
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;  /* Added space between label and input */
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #00ffaa;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #00ffaa;
+}
+
+input[type="date"]:focus {
+    box-shadow: 0 0 8px #00ffaa;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #00ffaa, #007f5f);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 170, 0.7);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffaa;
+}
+
+/* Message */
+.msg-container {
+    margin-top: 20px;
+}
+
+#msg {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffaa;
+    text-shadow: 0px 0px 10px #00ffaa;
+}
